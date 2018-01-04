@@ -2,19 +2,19 @@
 Quantopian策略
 
 績效:
--Total Returns:141.81%
--Benchmark Returns:59.33%
--Alpha:0.09
--Beta:1.44
--Sharpe:0.86
--Sortino:1.26
--Volatility:0.31
--Max Drawdown:43.91%
+##-Total Returns:141.81%
+##-Benchmark Returns:59.33%
+##-Alpha:0.09
+##-Beta:1.44
+##-Sharpe:0.86
+##-Sortino:1.26
+##-Volatility:0.31
+##-Max Drawdown:43.91%
 
 程式碼:
 
     def initialize(context):
-        # Stock = AAPL、MICROSOFT CORP
+     # Stock = AAPL、MICROSOFT CORP
         context.security = [sid(24),sid(5061)]
 
     def rebalance(context, data):
