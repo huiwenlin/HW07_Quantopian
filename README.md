@@ -22,7 +22,6 @@ Max Drawdown:43.91%
 程式碼:
 
     def initialize(context):
-     # Stock = AAPL、MICROSOFT CORP
         context.security = [sid(24),sid(5061)]
 
     def rebalance(context, data):
